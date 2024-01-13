@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+body {
+background-image: url('anime-girl-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header {
+    margin-top: 80px;
+    margin-right: 19px;
+    margin-left: 62px;
+    font-style: italic;
+    color: darkmagenta;
+    height: 100px;
+    font-size: 54px;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: darkmagenta;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-left: 62px;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: lightpink;}
+
+#promptText {
+    color: darkorchid;
+}
+
+#username {
+    margin-top: 0px;
+    margin-left: 62px;
+    font-style: initial;
+    font-size: 48px;
+    color: #9501b0;
+}
+#sakuraPng {
+    width: 800px;
+    height: 535px;
+}
+.nameAsk {
+    color: indigo;
+    margin-left: 162px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.entryFieldName {
+    display: none;
+    height: 30px;
+    margin-left: 162px;
+    margin-top: 15px;
+    width: 265px;
+}
+.sendButton {
+    display: initial;
+    width: fit-content;
+    font-size: xx-large;
+    margin-top: 15px;
+    margin-left: 272px;
+
+}
+.hurtWithGreet {
+    height: 260px;
+    background-repeat: no-repeat;
+    text-align: justify;
+    padding: 70px 180px;
+    font-size: 18px;
+    width: 250px;
+    position: absolute;
+}
+.hurtPic {
+    position: absolute;
+    margin-top: 0px;
+}
+.minecraftGreet {
+    margin-left: 0px;
+    background-image: url("sakura_backgr.jpg");
+    height: 1080px;
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.lineGradient {
+    background: linear-gradient(to top, rgb(54, 172, 241), rgba(255, 255, 255, 0));
+    height: 90px;
+}
+.sheepPic {
+    width: 344px;
+    height: 500px;
+    display: flex;
+    margin-top: 150px;
+}
+.longLine {
+    margin-top: 900px;
+    width: 100%;
+}
